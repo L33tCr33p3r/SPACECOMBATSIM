@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dtkpaxghktpwx"]
+
+[ext_resource type="Script" path="res://Main/Main.cs" id="1_w3flk"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_w3flk")
+
+[node name="Playspace" type="Node" parent="."]
