@@ -1,6 +1,6 @@
 ﻿namespace SpaceCombatSim.Module
 {
-	internal interface IPowered : IModule
+	internal class Powered : ModuleProperty
 	{
 		public int MinUsage { get; set; }
 		public int MaxUsage { get; set; }

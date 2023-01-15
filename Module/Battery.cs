@@ -1,6 +1,6 @@
 ﻿namespace SpaceCombatSim.Module
 {
-	internal interface IBattery
+	internal class Battery : ModuleProperty
 	{
 		public int MaxPower { get; set; }
 		public int StoredPower { get; set; }
