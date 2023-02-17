@@ -1,0 +1,32 @@
+{
+	"Segments": // Individual segments of a ship, like weapons, armour plates, and rooms
+	[
+		{
+			"Name": "Bridge"
+		},
+		{
+			"Name": "Engineering"
+		},
+		{
+			"Name": "Reactor"
+		},
+		{
+			"Name": "Helm"
+		}
+	],
+	"Connections": // The connections between segments
+	[
+		[
+			"Bridge",
+			"Engineering"
+		],
+		[
+			"Engineering",
+			"Reactor"
+		],
+		[
+			"Bridge",
+			"Helm"
+		]
+	]
+}

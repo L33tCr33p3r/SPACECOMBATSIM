@@ -1,10 +1,11 @@
 namespace SpaceCombatSim.Module
 {
-	public class Module
+	public partial class Module : Node3D
 	{
 		public int Integrity { get; set; }
 		public int MaxIntegrity { get; set; }
-		public int ArmorClass { get; set; }
+		public int Hardness { get; set; }
+		public int Strength { get; set; }
 
 		public bool IsIntact { get; set; }
 

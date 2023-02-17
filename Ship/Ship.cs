@@ -2,6 +2,8 @@ namespace SpaceCombatSim.Ship
 {
 	public partial class Ship : Node3D
 	{
+		private double _power;
+
 		// Called when the node enters the scene tree for the first time.
 		public override void _Ready()
 		{
