@@ -1,8 +1,17 @@
 {
-	"Segments": // Individual segments of a ship, like weapons, armour plates, and rooms
+	"Modules": // Individual modules of a ship, like weapons, armour plates, and rooms
 	[
 		{
-			"Name": "Bridge"
+			"Name": "Bridge",
+			"Transform":
+			[
+				[],
+				[],
+				[]
+			],
+			"AC": 0,
+			"Hit Points": 50,
+			"Hardness": 5
 		},
 		{
 			"Name": "Engineering"
@@ -14,7 +23,7 @@
 			"Name": "Helm"
 		}
 	],
-	"Connections": // The connections between segments
+	"Connections": // The connections between modules
 	[
 		[
 			"Bridge",

@@ -5,7 +5,6 @@ namespace SpaceCombatSim.Module
 		public int Integrity { get; set; }
 		public int MaxIntegrity { get; set; }
 		public int Hardness { get; set; }
-		public int Strength { get; set; }
 
 		public bool IsIntact { get; set; }
 
